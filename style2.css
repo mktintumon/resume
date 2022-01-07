@@ -1,13 +1,14 @@
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
+    margin: 2rem;
     
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    margin: 0px 20px;
+    padding-top: 0px;
     align-items: center;
 }
 
@@ -39,7 +40,7 @@ section>li{
 
 h1{
     font-size: 4rem;
-    padding-top: rem;
+    padding-top: 0rem;
 }
 
 
@@ -47,14 +48,14 @@ h1{
 section{
     border-radius: 2rem;
     padding: 10px 10px 10px 20px;
-    margin : 20px 40px 20px 40px;
+    margin-bottom:20px ;
 
     border-top: 5px solid tomato;
     border-bottom:  5px solid tomato;
     border-left: 3px solid ;
     border-right: 3px solid;
 
-    margin-left: 2rem;
+    
     font-size: 1.5rem;
     color: white;
 }
@@ -62,7 +63,7 @@ section{
 
 
 nav{
-    margin-left: 2rem;
+    margin-left: 1rem;
     font-size: 1.5rem;
 }
 
@@ -78,13 +79,28 @@ p{
 }
 
 
-article{
+.content{
    
     display: flex;
     justify-content: space-around;
-    margin-bottom: 5rem;
-    margin-right: 3rem;
+    margin-bottom: 2rem;
+    
   
+}
+
+article div{
+    text-align: center;
+    color: white;
+}
+
+.familiar{
+    padding-left: 1rem;
+    color: red;
+    margin-bottom: 2rem;
+}
+
+article ul{
+    color: wheat;
 }
 
 
@@ -97,10 +113,8 @@ article{
 
 footer{
     text-align: center;
-    margin : 20px 10px 20px 10px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color:white;
-    padding: 1rem;
     justify-content: center;
     align-items: center;
 }
