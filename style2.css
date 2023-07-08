@@ -18,7 +18,7 @@ nav{
     position: relative;
     top: 1rem;
     right: 3rem;
-
+    padding-top: 0rem;
 }
 
 nav a{
@@ -82,12 +82,10 @@ p{
 
 
 .content{
-   
+    width: auto;
     display: flex;
     justify-content: space-around;
     margin-bottom: 2rem;
-    
-  
 }
 
 article div{
@@ -95,10 +93,11 @@ article div{
     color: white;
 }
 
-.familiar{
+.projects{
     padding-left: 1rem;
-    color: red;
+    color: white;
     margin-bottom: 2rem;
+    font-size: 1.5rem;
 }
 
 article ul{
@@ -116,7 +115,12 @@ article ul{
     border-width: 5px;
     border-style: solid;
     border-radius: 50%;
-    margin-left: 2rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+}
+
+article a{
+    color: wheat;
 }
 
 footer{
